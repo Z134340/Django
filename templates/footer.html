@@ -1,0 +1,9 @@
+<!-- footer.html -->
+{% block footer %}
+{% if now %}
+<p style='font-family:微軟正黑體;'>現在時刻：{{ now | date:"Y年m月d日 h:i:s"}}</p>
+{% else %}
+<p style='font-family:微軟正黑體;'>本文內容取自網絡，如有侵權請來信通知下架...</p>
+{% endif %}
+站長聯絡資訊:abc@gmail.com <br>
+{% endblock %}
