@@ -1,1 +1,1 @@
-# [ Python Django Course 1_20190810 ]
+# [ Python Django Course ]
